@@ -11,6 +11,7 @@
                     <?php $this->content(); ?>
                 </div>
             </div>
+            <?php $this->need('comments.php'); ?>
         </div>
         <?php $this->need('sidebar.php'); ?>
     </div>
